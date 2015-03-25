@@ -1,0 +1,4 @@
+C:\Users\buslabs\Desktop\MIS419_C3\UC3\bin\UC3.dll
+C:\Users\buslabs\Desktop\MIS419_C3\UC3\bin\UC3.pdb
+C:\Users\buslabs\Desktop\MIS419_C3\UC3\obj\Debug\UC3.dll
+C:\Users\buslabs\Desktop\MIS419_C3\UC3\obj\Debug\UC3.pdb
