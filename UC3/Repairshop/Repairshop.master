@@ -10,7 +10,8 @@
     </div>
 
     <div class="row">
-        <div class="col-lg-3 col-md-3">
+        <%--    Start Navigation Menu--%>
+        <div class="col-lg-2 col-md-2">
             <ul class="nav nav-pills nav-stacked" id="RepairShopCustomMenu">
                 <li role="presentation">
                     <a href="">
@@ -34,23 +35,17 @@
                 </li>
                 <li role="presentation">
                     <a href="">
-                        FAQ's / Contact Us
-                    </a>
-                </li>
-                <li role="presentation">
-                    <a href="">
                         Options / Settings
-                    </a>
-                </li>
-                <li role="presentation">
-                    <a href="">
-                        Log Out
                     </a>
                 </li>
             </ul>
         </div>
-        <div class="col-lg-9 col-md-9">
+        <div class="col-lg-10 col-md-10">
+        <%--    End Navigation Menu--%>
+
+        <%--    Start Repair Shop Content--%>
         <asp:ContentPlaceHolder ID="RepairShopContent" runat="server"/>
         </div>
+        <%--    End Repair Shop Content--%>
     </div>
 </asp:Content>

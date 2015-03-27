@@ -3,7 +3,15 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <div class="row">
-        <div class="col-lg-3">
+        <div class="col-lg-12 col-md-12">
+            <h2>Customer Portal</h2>
+            <hr />
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-lg-2 col-md-2">
             <ul class="nav nav-pills nav-stacked" id="CustomerCustomMenu">
                 <li role="presentation">
                     <a href="">
@@ -27,7 +35,7 @@
                 </li>
             </ul>
         </div>
-        <div class="col-lg-9">
+        <div class="col-lg-10 col-md-10">
         <asp:ContentPlaceHolder ID="CustomerContent" runat="server"/>
         </div>
     </div>
