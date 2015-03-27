@@ -6,10 +6,10 @@
 ~~- Create folder for C3 employee and a nested master page called Employee.master - Si ~~ <br>
 ~~- In each folder create a landing page (portal page) - Index.aspx using the nested master page - Si~~ <br>
 
-~~- Create Customer Custom Menu - Si~~
-- Create Employee Custom Menu - Si
-~~- Create Dealership Custom Menu - Tim~~
-~~- Create Repairshop Custom Menu - Tim~~
+~~- Create Customer Custom Menu - Si~~<br>
+- Create Employee Custom Menu - Si<br>
+~~- Create Dealership Custom Menu - Tim~~<br>
+~~- Create Repairshop Custom Menu - Tim~~<br>
 
 
 #### Note
