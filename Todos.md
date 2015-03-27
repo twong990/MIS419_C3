@@ -11,6 +11,11 @@
 ~~- Create Dealership Custom Menu - Tim~~
 ~~- Create Repairshop Custom Menu - Tim~~
 
+- Seed the database (USER_INFO_DIAGRAM)
+- Create Warranty pages for customer
+- Create claim page for customer
+- Create customer dashboard
+- Create Inspection page for customer
 
 #### Note
 - When create pages, make sure you use the item name "Webform using Master Page".
