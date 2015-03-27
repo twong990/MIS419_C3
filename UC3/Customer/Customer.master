@@ -9,16 +9,17 @@
         </div>
 
     </div>
-
+    
     <div class="row">
+    <%--Customer custom menu start--%>
         <div class="col-lg-2 col-md-2">
             <ul class="nav nav-pills nav-stacked" id="CustomerCustomMenu">
-                <li role="presentation">
+                <li role="presentation" id="CustomerProfile">
                     <a href="">
                         My Profile
                     </a>
                 </li>
-                <li role="presentation">
+                <li role="presentation" id="CustomerWarranties">
                     <a href="">
                         My Warranties
                     </a>
@@ -33,10 +34,18 @@
                         My Inspections
                     </a>
                 </li>
+                <li role="presentation">
+                    <a href="">
+                        Options / Setting
+                    </a>
+                </li>
             </ul>
         </div>
+        <%--customer custom menu end--%>
+        <%--Customer Content placeholder start--%>
         <div class="col-lg-10 col-md-10">
         <asp:ContentPlaceHolder ID="CustomerContent" runat="server"/>
         </div>
+        <%--customer content placeholder end--%>
     </div>
 </asp:Content>
