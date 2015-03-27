@@ -8,7 +8,7 @@
 
 - Create Customer Custom Menu - Si 
 - Create Employee Custom Menu - Si
-- Create Dealership Custom Menu
+- Create Dealership Custom Menu - Tim
 - Create Repairshop Custom Menu - Tim
 
 
