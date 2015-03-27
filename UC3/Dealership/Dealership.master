@@ -1,5 +1,59 @@
 ﻿<%@ Master Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Dealership.master.cs" Inherits="UC3.Dealership.Dealership" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
+
+<%--    Start Dealership.master Content--%>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    <div class="row">
+        <div class="col-lg-12 col-md-12">
+            <h2>Dealership Portal</h2>
+            <hr />
+        </div>
+    </div>
+
+    <div class="row">
+        <%--    Start Navigation Menu--%>
+        <div class="col-lg-2 col-md-2">
+            <ul class="nav nav-pills nav-stacked" id="DealershipCustomMenu">
+                <li role="presentation">
+                    <a href="">
+                        My Profile
+                    </a>
+                </li>
+                <li role="presentation">
+                    <a href="">
+                        Input Warranties
+                    </a>
+                </li>
+                <li role="presentation">
+                    <a href="">
+                        Inventory Level
+                    </a>
+                </li>
+                <li role="presentation">
+                    <a href="">
+                        New Products
+                    </a>
+                </li>
+                <li role="presentation">
+                    <a href="">
+                        Training Videos
+                    </a>
+                </li>
+                <li role="presentation">
+                    <a href="">
+                        Options / Settings
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-lg-10 col-md-10">
+        <%--    End Navigation Menu--%>
+
+        <%--    Start Dealership Content--%>
+        <asp:ContentPlaceHolder ID="DealershipContent" runat="server"/>
+        </div>
+        <%--    End Dealership Content--%>
+    </div>
 </asp:Content>
+<%--    End Dealership.master Content--%>
