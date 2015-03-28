@@ -7,9 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace UC3.Employee {
+namespace UC3.Customer {
     
     
-    public partial class Index {
+    public partial class OptionsSettings {
     }
 }
