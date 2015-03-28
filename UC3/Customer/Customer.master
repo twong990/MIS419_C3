@@ -14,28 +14,45 @@
     <%--Customer custom menu start--%>
         <div class="col-lg-2 col-md-2">
             <ul class="nav nav-pills nav-stacked" id="CustomerCustomMenu">
+                <li role="presentation" id="PortalHome">
+                    <a href="Index.aspx">
+                        Portal Home
+                    </a>
+                </li>
                 <li role="presentation" id="CustomerProfile">
-                    <a href="">
+                    <a href="Profile.aspx">
                         My Profile
                     </a>
                 </li>
                 <li role="presentation" id="CustomerWarranties">
-                    <a href="">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseWarranty" aria-expanded="false" aria-controls="collapseWarranty">
                         My Warranties
                     </a>
+                    <div id="collapseWarranty" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingWarranty">
+                      <div class="panel-body">
+                        <a href="ViewWarranties.aspx">View My Warranties</a><br /><br />
+                        <a href="LinkWarranties.aspx">Link Warranties</a><br />
+                      </div>
+                    </div>
                 </li>
-                <li role="presentation">
-                    <a href="">
+                <li role="presentation" id="CustomerClaims">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseClaim" aria-expanded="false" aria-controls="collapseClaim">
                         My Claims
                     </a>
+                    <div id="collapseClaim" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingClaim">
+                      <div class="panel-body">
+                        <a href="ViewClaims.aspx">View My Claims</a><br /><br />
+                        <a href="CreateClaim.aspx">Create Claim</a><br />
+                      </div>
+                    </div>
                 </li>
-                <li role="presentation">
-                    <a href="">
+                <li role="presentation" id="CustomerInspection">
+                    <a href="UpcomingInspections.aspx">
                         My Inspections
                     </a>
                 </li>
-                <li role="presentation">
-                    <a href="">
+                <li role="presentation" id="CustomerOptionSetting">
+                    <a href="OptionsSettings.aspx">
                         Options / Setting
                     </a>
                 </li>
