@@ -14,7 +14,7 @@
     <%--Customer custom menu start--%>
         <div class="col-lg-2 col-md-2">
             <ul class="nav nav-pills nav-stacked" id="CustomerCustomMenu">
-                <li role="presentation" id="PortalHome">
+                <li role="presentation" id="CustomerPortalHome">
                     <a href="Index.aspx">
                         Portal Home
                     </a>
