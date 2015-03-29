@@ -51,7 +51,7 @@
                     </a>
                 </li>
                 <li role="presentation">
-                    <a href="">
+                    <a href="InputNewEntityData.aspx">
                         Input New Entity Data
                     </a>
                 <li role="presentation" id="SearchDatabase">
@@ -60,17 +60,17 @@
                     </a>
                     <div id="collapseSearchData" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSearchData">
                       <div class="panel-body">
-                            <a href="LinkWarranties.aspx">For Claim</a><br /><br />
-                            <a href="LinkWarranties.aspx">For Customer</a><br /><br />
-                            <a href="LinkWarranties.aspx">For Dealership</a><br /><br />
-                            <a href="LinkWarranties.aspx">For Inspection</a><br /><br />
-                            <a href="LinkWarranties.aspx">For Repair Shop</a><br /><br />
-                            <a href="LinkWarranties.aspx">For Warranty</a><br />
+                            <a href="SearchForClaim.aspx">For Claim</a><br /><br />
+                            <a href="SearchForCustomer.aspx">For Customer</a><br /><br />
+                            <a href="SearchForDealership.aspx">For Dealership</a><br /><br />
+                            <a href="SearchForInspection.aspx">For Inspection</a><br /><br />
+                            <a href="SearchForRepairShop.aspx">For Repair Shop</a><br /><br />
+                            <a href="SearchForWarranty.aspx">For Warranty</a><br />
                       </div>
                     </div>
                 </li>
                 <li role="presentation">
-                    <a href="">
+                    <a href="OptionsSettings.aspx">
                         Options / Settings
                     </a>
                 </li>
