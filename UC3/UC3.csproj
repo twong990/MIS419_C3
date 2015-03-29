@@ -70,6 +70,7 @@
     <Content Include="Employee\InputNewEntityData.aspx" />
     <Content Include="Employee\Profile.aspx" />
     <Content Include="Employee\SearchForClaim.aspx" />
+    <Content Include="Employee\SearchForCustomer.aspx" />
     <Content Include="Employee\SearchForRepairShop.aspx" />
     <Content Include="Employee\ViewInspections.aspx" />
     <Content Include="Repairshop\Index.aspx" />
@@ -256,6 +257,12 @@
     </Compile>
     <Compile Include="Employee\SearchForClaim.aspx.designer.cs">
       <DependentUpon>SearchForClaim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employee\SearchForCustomer.aspx.cs">
+      <DependentUpon>SearchForCustomer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employee\SearchForCustomer.aspx.designer.cs">
+      <DependentUpon>SearchForCustomer.aspx</DependentUpon>
     </Compile>
     <Compile Include="Employee\SearchForRepairShop.aspx.cs">
       <DependentUpon>SearchForRepairShop.aspx</DependentUpon>
