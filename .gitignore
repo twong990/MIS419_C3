@@ -214,3 +214,6 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+UC3/bin/UC3.dll
+*.cache
+UC3/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
