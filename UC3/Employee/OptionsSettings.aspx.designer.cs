@@ -10,24 +10,15 @@
 namespace UC3.Employee {
     
     
-    public partial class InputNewEntityData {
+    public partial class OptionsSettings {
         
         /// <summary>
-        /// NewDataEntityDdl control.
+        /// OptionsSettingsFormView control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList NewDataEntityDdl;
-        
-        /// <summary>
-        /// NewDataEntityGoBtn control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button NewDataEntityGoBtn;
+        protected global::System.Web.UI.WebControls.FormView OptionsSettingsFormView;
     }
 }
