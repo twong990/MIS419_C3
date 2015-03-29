@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Customer/Customer.master" AutoEventWireup="true" CodeBehind="CreateClaim.aspx.cs" Inherits="UC3.Customer.CreateClaim" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="CustomerContent" runat="server">
 
-    <h4>View a Claim</h4>
+    <h4>Create a Claim</h4>
     <hr />
 
     <%--Start Data Content--%>

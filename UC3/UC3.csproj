@@ -67,7 +67,10 @@
     <Content Include="Dealership\Index.aspx" />
     <Content Include="Employee\CreateClaim.aspx" />
     <Content Include="Employee\Index.aspx" />
+    <Content Include="Employee\InputNewEntityData.aspx" />
     <Content Include="Employee\Profile.aspx" />
+    <Content Include="Employee\SearchForRepairShop.aspx" />
+    <Content Include="Employee\ViewInspections.aspx" />
     <Content Include="Repairshop\Index.aspx" />
     <Content Include="Scripts\jQuery2.1\jquery-2.1.3.intellisense.js" />
     <Content Include="Scripts\jQuery2.1\jquery-2.1.3.js" />
@@ -232,12 +235,33 @@
     <Compile Include="Employee\Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Employee\InputNewEntityData.aspx.cs">
+      <DependentUpon>InputNewEntityData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Employee\InputNewEntityData.aspx.designer.cs">
+      <DependentUpon>InputNewEntityData.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Employee\Profile.aspx.cs">
       <DependentUpon>Profile.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Employee\Profile.aspx.designer.cs">
       <DependentUpon>Profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employee\SearchForRepairShop.aspx.cs">
+      <DependentUpon>SearchForRepairShop.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Employee\SearchForRepairShop.aspx.designer.cs">
+      <DependentUpon>SearchForRepairShop.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employee\ViewInspections.aspx.cs">
+      <DependentUpon>ViewInspections.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Employee\ViewInspections.aspx.designer.cs">
+      <DependentUpon>ViewInspections.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
