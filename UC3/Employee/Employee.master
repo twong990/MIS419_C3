@@ -21,32 +21,32 @@
                     </a>
                 </li>
                 <li role="presentation">
-                    <a href="">
+                    <a href="Profile.aspx">
                         My Profile
                     </a>
                 </li>
-                <li role="presentation">
+                <li role="presentation" class="disabled">
                     <a href="">
                         Create Invoice
                     </a>
                 </li>
                 <li role="presentation">
-                    <a href="">
+                    <a href="ViewInspections.aspx">
                         View Inspection
                     </a>
                 </li>
-                <li role="presentation">
+                <li role="presentation" class="disabled">
                     <a href="">
                         Create Orders
                     </a>
                 </li>
-                <li role="presentation">
+                <li role="presentation" class="disabled">
                     <a href="">
                         Create Reports
                     </a>
                 </li>
                 <li role="presentation">
-                    <a href="">
+                    <a href="CreateClaim.aspx">
                         Create Claim
                     </a>
                 </li>
@@ -54,11 +54,20 @@
                     <a href="">
                         Input New Entity Data
                     </a>
-                </li>
-                <li role="presentation">
-                    <a href="">
+                <li role="presentation" id="SearchDatabase">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSearchData" aria-expanded="false" aria-controls="collapseSearchData">
                         Search Database
                     </a>
+                    <div id="collapseSearchData" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSearchData">
+                      <div class="panel-body">
+                            <a href="LinkWarranties.aspx">For Claim</a><br /><br />
+                            <a href="LinkWarranties.aspx">For Customer</a><br /><br />
+                            <a href="LinkWarranties.aspx">For Dealership</a><br /><br />
+                            <a href="LinkWarranties.aspx">For Inspection</a><br /><br />
+                            <a href="LinkWarranties.aspx">For Repair Shop</a><br /><br />
+                            <a href="LinkWarranties.aspx">For Warranty</a><br />
+                      </div>
+                    </div>
                 </li>
                 <li role="presentation">
                     <a href="">
