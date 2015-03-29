@@ -32,14 +32,19 @@
                 </li>
                 <li role="presentation">
                     <a href="">
-                        Inventory Level
+                        Input Inspection
                     </a>
                 </li>
                 <li role="presentation">
                     <a href="">
-                        New Products
+                        Inventory Level
                     </a>
                 </li>
+<%--                <li role="presentation">
+                    <a href="">
+                        New Products
+                    </a>
+                </li>--%>
                 <li role="presentation">
                     <a href="">
                         Training Videos

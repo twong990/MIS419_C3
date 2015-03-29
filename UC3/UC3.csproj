@@ -64,7 +64,13 @@
     <Content Include="Customer\UpcomingInspections.aspx" />
     <Content Include="Customer\ViewClaims.aspx" />
     <Content Include="Customer\ViewWarranties.aspx" />
+    <Content Include="Dealership\InputInspection.aspx" />
+    <Content Include="Dealership\OptionSettings.aspx" />
+    <Content Include="Dealership\TrainingVideos.aspx" />
+    <Content Include="Dealership\InventoryLevel.aspx" />
+    <Content Include="Dealership\InputWarranties.aspx" />
     <Content Include="Dealership\Index.aspx" />
+    <Content Include="Dealership\MyProfile.aspx" />
     <Content Include="Employee\CreateClaim.aspx" />
     <Content Include="Employee\Index.aspx" />
     <Content Include="Employee\InputCustomer.aspx" />
@@ -203,6 +209,41 @@
     <Compile Include="Customer\ViewWarranties.aspx.designer.cs">
       <DependentUpon>ViewWarranties.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Dealership\InputInspection.aspx.cs">
+      <DependentUpon>InputInspection.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dealership\InputInspection.aspx.designer.cs">
+      <DependentUpon>InputInspection.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dealership\OptionSettings.aspx.cs">
+      <DependentUpon>OptionSettings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dealership\OptionSettings.aspx.designer.cs">
+      <DependentUpon>OptionSettings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dealership\TrainingVideos.aspx.cs">
+      <DependentUpon>TrainingVideos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dealership\TrainingVideos.aspx.designer.cs">
+      <DependentUpon>TrainingVideos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dealership\InventoryLevel.aspx.cs">
+      <DependentUpon>InventoryLevel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dealership\InventoryLevel.aspx.designer.cs">
+      <DependentUpon>InventoryLevel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dealership\InputWarranties.aspx.cs">
+      <DependentUpon>InputWarranties.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dealership\InputWarranties.aspx.designer.cs">
+      <DependentUpon>InputWarranties.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Dealership\Dealership.master.cs">
       <DependentUpon>Dealership.master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -216,6 +257,13 @@
     </Compile>
     <Compile Include="Dealership\Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dealership\MyProfile.aspx.cs">
+      <DependentUpon>MyProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dealership\MyProfile.aspx.designer.cs">
+      <DependentUpon>MyProfile.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -247,12 +295,14 @@
     </Compile>
     <Compile Include="Employee\InputCustomer.aspx.cs">
       <DependentUpon>InputCustomer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Employee\InputCustomer.aspx.designer.cs">
       <DependentUpon>InputCustomer.aspx</DependentUpon>
     </Compile>
     <Compile Include="Employee\InputDealership.aspx.cs">
       <DependentUpon>InputDealership.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Employee\InputDealership.aspx.designer.cs">
       <DependentUpon>InputDealership.aspx</DependentUpon>
@@ -266,12 +316,14 @@
     </Compile>
     <Compile Include="Employee\InputRepairShop.aspx.cs">
       <DependentUpon>InputRepairShop.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Employee\InputRepairShop.aspx.designer.cs">
       <DependentUpon>InputRepairShop.aspx</DependentUpon>
     </Compile>
     <Compile Include="Employee\OptionsSettings.aspx.cs">
       <DependentUpon>OptionsSettings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Employee\OptionsSettings.aspx.designer.cs">
       <DependentUpon>OptionsSettings.aspx</DependentUpon>
