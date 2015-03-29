@@ -13,66 +13,66 @@ namespace UC3.Employee {
     public partial class CreateClaim {
         
         /// <summary>
-        /// DropDownList2 control.
+        /// WarrantyDdl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList2;
+        protected global::System.Web.UI.WebControls.DropDownList WarrantyDdl;
         
         /// <summary>
-        /// TextBox1 control.
+        /// ProblemDescTxtbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox ProblemDescTxtbx;
         
         /// <summary>
-        /// Button1 control.
+        /// AddProblemBtn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Button AddProblemBtn;
         
         /// <summary>
-        /// TextBox2 control.
+        /// ClaimCommentTxtbx control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
+        protected global::System.Web.UI.WebControls.TextBox ClaimCommentTxtbx;
         
         /// <summary>
-        /// FileUpload1 control.
+        /// ClaimFileUpload control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.FileUpload FileUpload1;
+        protected global::System.Web.UI.WebControls.FileUpload ClaimFileUpload;
         
         /// <summary>
-        /// Button2 control.
+        /// ClaimSaveBtn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button2;
+        protected global::System.Web.UI.WebControls.Button ClaimSaveBtn;
         
         /// <summary>
-        /// Button5 control.
+        /// ClaimCancelBtn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button5;
+        protected global::System.Web.UI.WebControls.Button ClaimCancelBtn;
     }
 }
