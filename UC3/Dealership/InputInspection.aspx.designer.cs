@@ -11,7 +11,7 @@ namespace UC3.Dealership
 {
 
 
-    public partial class MyProfile
+    public partial class InventoryLevel
     {
     }
 }

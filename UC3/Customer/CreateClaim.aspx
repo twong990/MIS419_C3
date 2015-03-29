@@ -5,14 +5,6 @@
     <hr />
 
     <%--Start Data Content--%>
-    <div class="row">
-        <div class="col-lg-12">
-        <h5><b>Select Warranty:</b></h5>
-            <asp:DropDownList ID="warrantyDdl" runat="server" Width="100%">
-            </asp:DropDownList>
-        <br /><br />
-        </div>
-    </div>
 
     <div class="row">
         <div class="col-lg-6">
@@ -29,7 +21,44 @@
     <hr />
 
     <div class="row">
+        <div class="col-lg-2">
+            <asp:DropDownList ID="warrantyDdl" runat="server">
+            </asp:DropDownList>
+        </div>
+
+        <div class="col-lg-2">
+            <asp:Label ID="productLbl" runat="server" Text="Product's Name"></asp:Label>
+        </div>
+
+        <div class="col-lg-2">
+            <asp:DropDownList ID="typeDdl" runat="server">
+            </asp:DropDownList>
+        </div>
+
+
+        <div class="col-lg-2">
+            <asp:DropDownList ID="sideDdl" runat="server">
+            </asp:DropDownList>
+        </div>
+
+        
+        <div class="col-lg-2">
+            <asp:DropDownList ID="partDdl" runat="server">
+            </asp:DropDownList>
+        </div>
+
+        <div class="col-lg-2">
+            <asp:DropDownList ID="descDdl" runat="server">
+            </asp:DropDownList>
+        </div>
+        <div class="clearfix"></div>
+        <div class="col-lg-3 col-lg-offset-10">
+            <asp:Label ID="descLbl" runat="server" Text="Label" Visible="false"></asp:Label>
+        </div>
+        <div class="clearfix"></div>
         <div class="col-lg-12">
+
+
         <h5><b>* Problem Description:</b></h5>
             <asp:TextBox ID="problemDescTextBox" runat="server" Width="100%" TextMode="MultiLine"></asp:TextBox>
         <br />
