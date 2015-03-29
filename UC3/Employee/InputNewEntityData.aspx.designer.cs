@@ -13,21 +13,21 @@ namespace UC3.Employee {
     public partial class InputNewEntityData {
         
         /// <summary>
-        /// DropDownList1 control.
+        /// NewDataEntityDdl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
+        protected global::System.Web.UI.WebControls.DropDownList NewDataEntityDdl;
         
         /// <summary>
-        /// Button1 control.
+        /// NewDataEntityGoBtn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Button NewDataEntityGoBtn;
     }
 }

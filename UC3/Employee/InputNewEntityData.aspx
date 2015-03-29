@@ -6,11 +6,13 @@
 
     <%--Start Data Content--%>
     <div class="row">
-        <div class="col-lg-12">
+        <div class="col-lg-3">
         <h5><b>Create New Data In:</b></h5>
-            <asp:DropDownList ID="DropDownList1" runat="server" Width="200 px">
-            </asp:DropDownList>
-            <asp:Button ID="Button1" runat="server" Text="Go!" />
+            <span>
+                <asp:DropDownList ID="NewDataEntityDdl" runat="server" Width="100%">
+                </asp:DropDownList>
+                <asp:Button ID="NewDataEntityGoBtn" runat="server" Text="Go!" />
+            </span>
         </div>
     </div>
 
