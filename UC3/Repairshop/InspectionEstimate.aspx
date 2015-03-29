@@ -23,13 +23,8 @@
         <div class="col-lg-3">
             <h5><b>* Status:</b></h5>
                 Display Status
-                <span>
-                    <div class="input-group-btn">
-                        <!-- Button and dropdown menu -->
-                        Test<br />
-                        Test<br />
-                    </div>
-                </span>
+                    <asp:DropDownList ID="StatusDropdown" runat="server" Width="100%">
+                    </asp:DropDownList>
         </div>
     </div>
 

@@ -26,22 +26,22 @@
                     </a>
                 </li>
                 <li role="presentation">
-                    <a href="">
+                    <a href="CreateInspection.aspx">
                         Create an Inspection
                     </a>
                 </li>
                 <li role="presentation">
-                    <a href="">
+                    <a href="ViewInspection.aspx">
                         View Inspection
                     </a>
                 </li>
                 <li role="presentation">
-                    <a href="">
+                    <a href="InspectionEstimate.aspx">
                         Submit Estimates
                     </a>
                 </li>
                 <li role="presentation">
-                    <a href="">
+                    <a href="OptionsSettings.aspx">
                         Options / Settings
                     </a>
                 </li>

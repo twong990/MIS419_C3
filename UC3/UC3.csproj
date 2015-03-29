@@ -89,6 +89,7 @@
     <Content Include="Repairshop\CreateInspection.aspx" />
     <Content Include="Repairshop\Index.aspx" />
     <Content Include="Repairshop\InspectionEstimate.aspx" />
+    <Content Include="Repairshop\OptionsSettings.aspx" />
     <Content Include="Repairshop\ViewInspection.aspx" />
     <Content Include="Scripts\jQuery2.1\jquery-2.1.3.intellisense.js" />
     <Content Include="Scripts\jQuery2.1\jquery-2.1.3.js" />
@@ -411,6 +412,13 @@
     </Compile>
     <Compile Include="Repairshop\InspectionEstimate.aspx.designer.cs">
       <DependentUpon>InspectionEstimate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Repairshop\OptionsSettings.aspx.cs">
+      <DependentUpon>OptionsSettings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Repairshop\OptionsSettings.aspx.designer.cs">
+      <DependentUpon>OptionsSettings.aspx</DependentUpon>
     </Compile>
     <Compile Include="Repairshop\Repairshop.master.cs">
       <DependentUpon>Repairshop.master</DependentUpon>

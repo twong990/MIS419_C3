@@ -22,6 +22,15 @@ namespace UC3.Repairshop {
         protected global::System.Web.UI.WebControls.TextBox ClaimNumTxtbx;
         
         /// <summary>
+        /// StatusDropdown control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList StatusDropdown;
+        
+        /// <summary>
         /// ProblemTxtbx control.
         /// </summary>
         /// <remarks>
