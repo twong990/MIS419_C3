@@ -67,14 +67,16 @@
     <Content Include="Dealership\Index.aspx" />
     <Content Include="Employee\CreateClaim.aspx" />
     <Content Include="Employee\Index.aspx" />
+    <Content Include="Employee\InputCustomer.aspx" />
+    <Content Include="Employee\InputDealership.aspx" />
     <Content Include="Employee\InputNewEntityData.aspx" />
+    <Content Include="Employee\InputRepairShop.aspx" />
+    <Content Include="Employee\OptionsSettings.aspx" />
     <Content Include="Employee\Profile.aspx" />
     <Content Include="Employee\SearchForClaim.aspx" />
     <Content Include="Employee\SearchForCustomer.aspx" />
-
     <Content Include="Employee\SearchForDealership.aspx" />
     <Content Include="Employee\SearchForInspection.aspx" />
-
     <Content Include="Employee\SearchForRepairShop.aspx" />
     <Content Include="Employee\SearchForWarranty.aspx" />
     <Content Include="Employee\ViewInspections.aspx" />
@@ -90,6 +92,7 @@
     <Content Include="Styles\bootstrap3\js\bootstrap.js" />
     <Content Include="Styles\bootstrap3\js\bootstrap.min.js" />
     <Content Include="Styles\bootstrap3\js\npm.js" />
+    <Content Include="Styles\normalize.css" />
     <Content Include="Styles\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
@@ -242,12 +245,36 @@
     <Compile Include="Employee\Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Employee\InputCustomer.aspx.cs">
+      <DependentUpon>InputCustomer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employee\InputCustomer.aspx.designer.cs">
+      <DependentUpon>InputCustomer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employee\InputDealership.aspx.cs">
+      <DependentUpon>InputDealership.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employee\InputDealership.aspx.designer.cs">
+      <DependentUpon>InputDealership.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Employee\InputNewEntityData.aspx.cs">
       <DependentUpon>InputNewEntityData.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Employee\InputNewEntityData.aspx.designer.cs">
       <DependentUpon>InputNewEntityData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employee\InputRepairShop.aspx.cs">
+      <DependentUpon>InputRepairShop.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employee\InputRepairShop.aspx.designer.cs">
+      <DependentUpon>InputRepairShop.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employee\OptionsSettings.aspx.cs">
+      <DependentUpon>OptionsSettings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Employee\OptionsSettings.aspx.designer.cs">
+      <DependentUpon>OptionsSettings.aspx</DependentUpon>
     </Compile>
     <Compile Include="Employee\Profile.aspx.cs">
       <DependentUpon>Profile.aspx</DependentUpon>
@@ -265,15 +292,11 @@
     </Compile>
     <Compile Include="Employee\SearchForCustomer.aspx.cs">
       <DependentUpon>SearchForCustomer.aspx</DependentUpon>
- 
- 
       <SubType>ASPXCodeBehind</SubType>
-
     </Compile>
     <Compile Include="Employee\SearchForCustomer.aspx.designer.cs">
       <DependentUpon>SearchForCustomer.aspx</DependentUpon>
     </Compile>
-
     <Compile Include="Employee\SearchForDealership.aspx.cs">
       <DependentUpon>SearchForDealership.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -288,7 +311,6 @@
     <Compile Include="Employee\SearchForInspection.aspx.designer.cs">
       <DependentUpon>SearchForInspection.aspx</DependentUpon>
     </Compile>
-
     <Compile Include="Employee\SearchForRepairShop.aspx.cs">
       <DependentUpon>SearchForRepairShop.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
