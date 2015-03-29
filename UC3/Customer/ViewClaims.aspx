@@ -8,7 +8,7 @@
     <div class="row">
         <div class="col-lg-12">
         <h5><b>Select Claim:</b></h5>
-            <asp:DropDownList ID="DropDownList2" runat="server" Width="100%">
+            <asp:DropDownList ID="claimDdl" runat="server" Width="100%">
             </asp:DropDownList>
         <br /><br />
         </div>
@@ -50,7 +50,7 @@
     <div class="row">
         <div class="col-lg-12">
         <h5><b>Problem Description:</b></h5>
-            <asp:TextBox ID="TextBox1" runat="server" Width="100%" TextMode="MultiLine"></asp:TextBox>
+            <asp:TextBox ID="problemDescTxtBox" runat="server" Width="100%" TextMode="MultiLine"></asp:TextBox>
         <br />
         </div>
 

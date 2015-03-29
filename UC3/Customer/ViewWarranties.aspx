@@ -8,7 +8,7 @@
     <div class="row">
         <div class="col-lg-12">
         <h5><b>Select Warranty:</b></h5>
-            <asp:DropDownList ID="DropDownList2" runat="server" Width="100%">
+            <asp:DropDownList ID="warrantyDdl" runat="server" Width="100%">
             </asp:DropDownList>
         <br /><br />
         </div>
