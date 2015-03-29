@@ -86,7 +86,10 @@
     <Content Include="Employee\SearchForRepairShop.aspx" />
     <Content Include="Employee\SearchForWarranty.aspx" />
     <Content Include="Employee\ViewInspections.aspx" />
+    <Content Include="Repairshop\CreateInspection.aspx" />
     <Content Include="Repairshop\Index.aspx" />
+    <Content Include="Repairshop\InspectionEstimate.aspx" />
+    <Content Include="Repairshop\ViewInspection.aspx" />
     <Content Include="Scripts\jQuery2.1\jquery-2.1.3.intellisense.js" />
     <Content Include="Scripts\jQuery2.1\jquery-2.1.3.js" />
     <Content Include="Scripts\jQuery2.1\jquery-2.1.3.min.js" />
@@ -388,6 +391,13 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repairshop\CreateInspection.aspx.cs">
+      <DependentUpon>CreateInspection.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Repairshop\CreateInspection.aspx.designer.cs">
+      <DependentUpon>CreateInspection.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Repairshop\Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -395,12 +405,26 @@
     <Compile Include="Repairshop\Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Repairshop\InspectionEstimate.aspx.cs">
+      <DependentUpon>InspectionEstimate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Repairshop\InspectionEstimate.aspx.designer.cs">
+      <DependentUpon>InspectionEstimate.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Repairshop\Repairshop.master.cs">
       <DependentUpon>Repairshop.master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Repairshop\Repairshop.master.designer.cs">
       <DependentUpon>Repairshop.master</DependentUpon>
+    </Compile>
+    <Compile Include="Repairshop\ViewInspection.aspx.cs">
+      <DependentUpon>ViewInspection.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Repairshop\ViewInspection.aspx.designer.cs">
+      <DependentUpon>ViewInspection.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>

@@ -15,8 +15,13 @@
         <%--    Start Navigation Menu--%>
         <div class="col-lg-2 col-md-2">
             <ul class="nav nav-pills nav-stacked" id="RepairShopCustomMenu">
+                <li role="presentation" id="RepairShopPortalHome">
+                    <a href="Index.aspx">
+                        Portal Home
+                    </a>
+                </li>
                 <li role="presentation">
-                    <a href="">
+                    <a href="Profile.aspx">
                         My Profile
                     </a>
                 </li>
