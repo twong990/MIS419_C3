@@ -71,11 +71,10 @@
     <Content Include="Employee\Profile.aspx" />
     <Content Include="Employee\SearchForClaim.aspx" />
     <Content Include="Employee\SearchForCustomer.aspx" />
-<<<<<<< HEAD
-=======
+
     <Content Include="Employee\SearchForDealership.aspx" />
     <Content Include="Employee\SearchForInspection.aspx" />
->>>>>>> twong990-master
+
     <Content Include="Employee\SearchForRepairShop.aspx" />
     <Content Include="Employee\SearchForWarranty.aspx" />
     <Content Include="Employee\ViewInspections.aspx" />
@@ -266,16 +265,15 @@
     </Compile>
     <Compile Include="Employee\SearchForCustomer.aspx.cs">
       <DependentUpon>SearchForCustomer.aspx</DependentUpon>
-<<<<<<< HEAD
-=======
+ 
+ 
       <SubType>ASPXCodeBehind</SubType>
->>>>>>> twong990-master
+
     </Compile>
     <Compile Include="Employee\SearchForCustomer.aspx.designer.cs">
       <DependentUpon>SearchForCustomer.aspx</DependentUpon>
     </Compile>
-<<<<<<< HEAD
-=======
+
     <Compile Include="Employee\SearchForDealership.aspx.cs">
       <DependentUpon>SearchForDealership.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -290,7 +288,7 @@
     <Compile Include="Employee\SearchForInspection.aspx.designer.cs">
       <DependentUpon>SearchForInspection.aspx</DependentUpon>
     </Compile>
->>>>>>> twong990-master
+
     <Compile Include="Employee\SearchForRepairShop.aspx.cs">
       <DependentUpon>SearchForRepairShop.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
